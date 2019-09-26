@@ -8,6 +8,9 @@
 // any CSS you require will output into a single css file (app.css in this case)
 import '../css/app.css';
 
+import $ from 'jquery';
+// uncomment if you have legacy code that needs global variables
+//global.$ = $;
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 // const $ = require('jquery');
 
